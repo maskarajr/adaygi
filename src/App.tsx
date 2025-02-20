@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, ChevronDown } from 'lucide-react';
-import usdtIcon from './assets/usdt-icon.svg';
+import usdtIcon from './assets/usdt-icon.png';
+import usdcIcon from './assets/usdc-icon.png';
 
 type Direction = 'buy' | 'sell';
 type CryptoAsset = 'USDT' | 'USDC';
